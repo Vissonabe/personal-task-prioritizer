@@ -1,0 +1,65 @@
+# Core dependencies
+streamlit==1.44.1
+python-dotenv==1.1.0
+
+# Database and authentication
+supabase==2.15.0
+supafunc==0.9.4
+postgrest==1.0.1
+storage3==0.11.0
+gotrue==2.12.0
+realtime==2.4.2
+
+# LangChain and LLM dependencies
+langchain==0.3.23
+langchain-community==0.3.21
+langchain-core==0.3.51
+langchain-openai==0.3.12
+langchain-experimental==0.3.4
+langchain-text-splitters==0.3.8
+langserve==0.3.1
+langgraph==0.3.29
+langgraph-checkpoint==2.0.24
+langgraph-prebuilt==0.1.8
+langgraph-sdk==0.1.61
+langsmith==0.3.30
+openai==1.72.0
+
+# Data processing
+pandas==2.2.3
+numpy==2.2.4
+pyarrow==19.0.1
+pydantic==2.11.3
+pydantic-settings==2.8.1
+pydantic_core==2.33.1
+
+# API and networking
+fastapi==0.115.12
+uvicorn==0.34.1
+httpx==0.28.1
+requests==2.32.3
+aiohttp==3.11.16
+starlette==0.46.2
+sse-starlette==2.2.1
+
+# Utilities
+tenacity==9.1.0
+tiktoken==0.9.0
+PyYAML==6.0.2
+tqdm==4.67.1
+typing-extensions==4.13.2
+typing-inspect==0.9.0
+typing-inspection==0.4.0
+xxhash==3.5.0
+zstandard==0.23.0
+jsonpatch==1.33
+orjson==3.10.16
+
+# Visualization
+altair==5.5.0
+pydeck==0.9.1
+pillow==11.1.0
+
+# Development tools
+pytest==8.3.5
+pytest-mock==3.14.0
